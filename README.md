@@ -1,7 +1,7 @@
 An out-of-the-box data analysis environment for Python and R
 ============================================================
 
-This repo gives you a virtual Ubuntu 12.04 Linux OS with R and Python - pre-installed with
+This repo gives you a virtual Ubuntu 12.04 Linux OS with Python and R, including essential add-on packages for data analysis.
 
 Why?
 ----
