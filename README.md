@@ -10,7 +10,7 @@ To my mind, there are three main use-cases where taking advatage of this VM setu
 
 1. For the beginner (in the environment or language): it removes the hassle of setting up the environment - doing this can, unfortunately, be a massive pain and sometimes even discourage people from using the tool altogether.
 
-2. For those who want to develop, do research and analysis in a reproducible way: sharing a distributed version controlled repository with code, data and a virtual machine with the runtime environment is an extremely scientific powerful tool. You effectively share your laboratry with others.
+2. For those who want to develop, do research and analysis in a reproducible way: sharing a distributed version controlled repository with code, data and a virtual machine with the runtime environment is an extremely powerful scientific tool. You effectively share your laboratory with others.
 
 3. For the teacher/presenter: doing tutorial sessions where your effectiveness depends on the state of each participant's operating system is simply not workable. Get rid of those dependencies by distributing a pre-made working environment to your pariticipants/students.
 
