@@ -43,11 +43,6 @@ class r_env {
             echo "TRUE" >> /tmp/installed-r-packages;',
     }
 
-    exec {'run-update':
-        provider => shell,
-        command => '/usr/bin/apt-get update;',
-    }
-
 }
 
 class python_env {

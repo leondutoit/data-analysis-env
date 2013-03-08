@@ -12,7 +12,8 @@ Vagrant::Config.run do |config|
     config.vm.forward_port 80, 8080
 
     # Provisioning
-    config.vm.provision :puppet do |puppet|
+    config.vm.provision :puppet,
+    :options => ["--verbose", "--debug"] do |puppet|
         puppet.manifests_path = "puppet/manifests"
         puppet.manifest_file = "data-analysis-env.pp"
         puppet.module_path = "puppet/modules"
